@@ -1,6 +1,6 @@
 # Exercise 1
 
-nombre = 'Koldo Arretxea'
+nombre = 'Koldo Arretxea es estudiante en Bottega'
 numero = 1977
 lista = ['rojo', 'verde', 'amarillo', 'azul']
 hombre = True
@@ -31,3 +31,20 @@ print(last_element)
 names = 'harry,alex,susie,jared,gail,conner'
 nueva_lista = names.split(",")
 print(nueva_lista)
+
+# Exercise 7
+
+palabras = nombre.split()
+primera_palabra = palabras[0].upper()
+print(primera_palabra)
+
+nueva_frase = nombre.replace(palabras[0], primera_palabra)
+print(nueva_frase)
+
+# Exercise 8
+
+print(f'{nombre} y nació en {numero}')
+
+# Exercise 9
+
+print('"hello world"')
